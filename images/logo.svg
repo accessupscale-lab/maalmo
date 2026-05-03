@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-label="Maalmo Steels">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5C972"/>
+      <stop offset="55%" stop-color="#E8A948"/>
+      <stop offset="100%" stop-color="#B8821F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Oval frame containing the M mark -->
+  <g transform="translate(8 4)">
+    <ellipse cx="44" cy="32" rx="40" ry="26" fill="none" stroke="url(#gold)" stroke-width="2.4"/>
+    <!-- Stylized mountain/M: three peaks echoing the logo -->
+    <path d="M18 44 L30 22 L38 34 L44 16 L50 34 L58 22 L70 44 Z"
+          fill="url(#gold)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Poppins, Arial, sans-serif" font-weight="800" fill="url(#gold)">
+    <text x="100" y="46" font-size="28" letter-spacing="1">MAALMO</text>
+    <text x="100" y="72" font-size="13" letter-spacing="6" font-weight="600">STEELS</text>
+  </g>
+</svg>
